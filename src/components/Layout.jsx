@@ -4,7 +4,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <main className="p-4 max-w-4xl mx-auto">{children}</main>
+      <main className="pt-16 p-4 max-w-4xl mx-auto">{children}</main>
     </>
   );
 }

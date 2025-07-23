@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white shadow-md px-4 py-3 flex justify-between items-center">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md px-4 py-3 flex justify-between items-center">
       <Link to="/" className="text-xl font-bold text-blue-600">
         StackIt
       </Link>
